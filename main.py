@@ -1,11 +1,14 @@
+# Reverse String
 def reverse_string(text):
     return text[::-1]
 
+# Check if palindrome
 def is_palindrome(text):
     # Normalize by removing spaces and making lowercase
     text = text.lower().replace(" ", "")
     return text == reverse_string(text)
 
+# Sorting Algorithm
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n - 1):
